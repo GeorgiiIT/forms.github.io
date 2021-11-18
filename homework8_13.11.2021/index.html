@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homework№7</title>
+</head>
+<body>
+    <div>
+        <form class="main-container" enctype="multipart/form-data" method="post">
+            <!-- First Block -->
+            <div class="column">
+                <div class="column-form">
+                    <label class="input-title">Type 
+                        <span class="form-symbol">*</span><br>
+                        <select class="form-select" required size="1" name="car" id="car">
+                            <option value="">Tractor</option>
+                            <option value="2">Van</option>
+                            <option value="3">Car</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">SubType
+                        <span class="form-symbol">*</span><br>
+                        <input class="form-input" required type="text" value="Fake">
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">Specs<br>
+                        <input class="form-input" required type="text" value="Nullam porttitor lacus at turpis. Do...">
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">Driver<br>
+                        <select class="form-select driver-select" name="driver" id="driver">
+                            <option selected value="select">Select</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <!-- Second Block -->
+            <div class="column">
+                <div class="column-form">
+                    <label class="input-title">Vechicle ID NUMBER (VIN) 
+                        <span class="form-symbol">*</span><br>
+                        <input class="form-input" required type="text" value="WBA3A5C50123">
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">Make
+                        <span class="form-symbol">*</span><br>
+                        <input class="form-input" required type="text" value="Fake">
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">Model
+                        <span class="form-symbol">*</span><br>
+                        <input class="form-input" required type="text" value="Fake">
+                    </label>
+                </div>
+                <div class="column2">
+                    <label class="label-model"><span class="input-title">Year</span> 
+                        <span class="form-symbol">*</span>
+                        <input class="form-input data-year" required type="text" value="2008">
+                    </label>
+                    <label class="label-model"><span class="input-title">GVW</span>
+                        <span class="form-symbol">*</span>
+                        <input class="form-input data-gvw" required type="text" value="20092">
+                    </label>
+                    <label class="label-model"><span class="input-title">Unit</span>
+                        <span class="form-symbol">*</span>
+                        <select class="form-select data-unit" name="date" id="date">
+                            <option selected value="lbs">LBS</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <!-- Third Block -->
+            <div class="column">
+                <div class="column-form">
+                    <label class="input-title">License Plate
+                        <span class="form-symbol">*</span><br>
+                        <input class="form-input" required type="text" value="XK-H-2ASDASD">
+                    </label>
+                </div>
+                <div class="column-form">
+                    <div class="column-form">
+                        <label class="input-title">Port Pass RFID 
+                            <input class="form-input checkmark" required type="checkbox" checked="checked">
+                        </label>
+                    </div>
+                    <div class="column-form">
+                        <label>
+                            <input class="form-input pass-input" required type="password" placeholder="Type here">
+                        </label>
+                    </div>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">Ownership
+                        <span class="form-symbol">*</span><br>
+                        <select class="form-select" required size="1" name="property" id="property">
+                            <option selected value="">Owned</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">Truck Type<br>
+                        <select class="form-select" name="track" id="track">
+                            <option selected value="track_type">Sleeper</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <!-- Fourth Block -->
+            <div class="column">
+                <div class="column-form">
+                    <p class="input-title-registration">Registration</p><br>
+                    <label class="input-title">State
+                        <span class="form-symbol">*</span><br>
+                        <select class="form-select" required size="1" name="sity" id="Sity">
+                            <option selected value="">AL - Alabama</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="input-title">Date
+                        <span class="form-symbol">*</span><br>
+                        <input class="form-input" required type="text" value="09/01/2018">
+                    </label>
+                </div>
+                <div class="column2">
+                    <label class="label-model2"><span class="input-title">GVW</span> 
+                        <span class="form-symbol">*</span>
+                        <input class="form-input data-gvw2" required type="text" value="42283">
+                    </label>
+                    <label class="label-model2"><span class="input-title">Unit</span> 
+                        <span class="form-symbol">*</span><br>
+                        <select class="form-select data-unit2" name="KGS" id="KGS">
+                            <option selected value="KGS">KGS</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <!-- Fifth Block -->
+            <div class="column">
+                <div class="column-form">
+                    <label class="form5-title cursor"><span class="input-title">Restrictions</span> 
+                        <span class="form-symbol">*</span><br>
+                        <select class="form-select" required size="1" name="roud" id="roud">
+                            <option selected value="">Highway</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="column-form">
+                    <label class="form5-title cursor"><span class="input-title">Exp. Date</span> 
+                        <span class="form-symbol">*</span><br>
+                        <input class="form-input" required type="text" value="05/25/2018">
+                    </label>
+                </div>
+                <div class="bottom form">
+                    <p class="input-title div-forms">Doc. Image</p>
+                    <label><img class="bottom-img" src="img/upload.png.jpg" alt="upload">
+                        <input class="form-input upload-photo" required type="file">
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>         
+</body>
+</html>
+
+
+
